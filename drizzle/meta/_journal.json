@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1769764282752,
+      "tag": "0000_medical_annihilus",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1769764340751,
+      "tag": "0001_furry_brood",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1769855064773,
+      "tag": "0002_boring_giant_girl",
+      "breakpoints": true
+    }
+  ]
+}

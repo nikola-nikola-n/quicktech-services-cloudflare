@@ -1,0 +1,1 @@
+ALTER TABLE `contact_submissions` MODIFY COLUMN `attached_images` text;

@@ -1,0 +1,39 @@
+# Robots.txt for QuickTech Services
+# Allow all crawlers to index the site
+
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /.env
+Disallow: /node_modules
+Disallow: /.git
+Disallow: /dist
+Disallow: /src
+Disallow: /server
+Disallow: /*.json$
+Disallow: /*?*sort=
+Disallow: /*?*filter=
+Disallow: /*.avif$
+Disallow: /*.jpg$
+Disallow: /*.jpeg$
+Disallow: /*.png$
+Disallow: /*.gif$
+Disallow: /*.webp$
+
+# Allow Google to crawl all pages
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Allow Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Sitemaps
+Sitemap: https://quicktechservices.com.au/sitemap.xml
+Sitemap: https://quicktechservices.com.au/sitemap1.xml
+
+# Allow all other crawlers
+User-agent: *
+Allow: /
