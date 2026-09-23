@@ -82,6 +82,10 @@ function Router() {
       <Route path="/emergency-computer-repair-brisbane" component={EmergencyRepair} />
       <Route path="/it-support-brisbane" component={ITSupportBrisbane} />
       <Route path="/laptop-not-turning-on-brisbane" component={LaptopNotTurningOnBrisbane} />
+      <Route path="/computer-repair-woolloongabba" component={Woolloongabba} />
+      <Route path="/computer-repair-greenslopes" component={Greenslopes} />
+      <Route path="/computer-repair-coorparoo" component={Coorparoo} />
+      <Route path="/computer-repair-mount-gravatt" component={MountGravatt} />
       <Route path="*" component={NotFound} />
     </Switch>
   );
