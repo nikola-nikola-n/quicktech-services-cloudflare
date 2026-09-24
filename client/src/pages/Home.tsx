@@ -280,6 +280,17 @@ export default function Home() {
               QuickTech Services provides computer repairs in Brisbane for laptops and desktops, including virus removal, data recovery, upgrades, and custom PC builds. Clear pricing, honest advice, and reliable fixes across Brisbane & surrounding suburbs.
             </p>
 
+            <div className="container mx-auto px-4 text-center">
+                <p className="font-semibold">⚠️ Scam Warning</p>
+                <p className="text-sm mt-1">
+                  We have been made aware of scammers using the QuickTech Services name.
+                  QuickTech Services has no subscriptions or monthly fees and will never
+                  unexpectedly call asking for remote access to your computer. If you
+                  receive a suspicious call claiming to be QuickTech Services, please
+                  contact us directly before making any payment or giving access to your computer.
+                </p>
+              </div>
+
           </div>
           
           <div className="relative h-96 md:h-full animate-fade-in-delay">
